@@ -5,7 +5,7 @@
 
     {% if form.errors %}
     <p class="error">
-        Seu nome de usuário e/ou password estão incorretos. Tente novamente.
+        Seu nome de usuário e/ou senha estão incorretos. Tente novamente.
     </p>
     {% endif %}
 
@@ -19,7 +19,7 @@
                    {% if not form.errors %}autofocus{% endif %} maxlength="254">
         </p>
         <p>
-            <label for="id_password">Password</label>
+            <label for="id_password">Senha</label>
             <input type="password" id="id_password" class="form-control" name="password"
                    {% if form.errors %}autofocus{% endif %}>
         </p>
